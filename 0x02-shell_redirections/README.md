@@ -1,10 +1,5 @@
 # 0x002 Shell, I/O Redirections and Filters
 
-## Resources
-
-- LinuxCommand.Org [I/O Redirection](http://linuxcommand.org/lc3_lts0070.php).
-- BashGuide [SpecialCharacters](http://mywiki.wooledge.org/BashGuide/SpecialCharacters).
-
 ## Tasks
 
 0. [Hello World](./0-hello_world) : A script that prints `Hello, World`, followed by a new line to the standard output.
@@ -24,7 +19,7 @@
     - The current and present directories should not be taken into account.
     - Hidden directories should be counted.
       - **Solution:** `mindepth 1` ; To exclude root directory
-      - **Others:** `maxdepth 1` ; To avoid parsing sub directories. (*you may need this in future.*)
+      - **Others:** `maxdepth 1` ; To avoid parsing sub directories. (_you may need this in future._)
 12. [Whats12's new](./12-newest_files) : A script that prints the 10 newest files in the current directory.
     - The output should be; one file per line and sorted from the newest to the oldest.
 13. [Being unique is better than being perfect](./13-unique) : A script that takes a list of words as input and prints only words that appear exactly once.
@@ -48,12 +43,12 @@
     - You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`.
 24. [A gif is worth ten thousand words](./101-gifs) : A script that lists all the files with a `.gif` extension in the current directory and all its sub-directories.
     - Hidden files should be listed.
-    - Only regular files (not directories) should be listed.  
-    - The names of the files should be displayed without their extensions. 
-    - The files should be sorted by byte values, but case-insensitive (file `aaa` should be listed before file `bbb`, file `.b` should be listed before file `a`, and file `Rona` should be listed after file `jay`) 
-    - One file name per line. 
-    - The listing should end with a new line. 
-    - You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`. 
+    - Only regular files (not directories) should be listed.
+    - The names of the files should be displayed without their extensions.
+    - The files should be sorted by byte values, but case-insensitive (file `aaa` should be listed before file `bbb`, file `.b` should be listed before file `a`, and file `Rona` should be listed after file `jay`)
+    - One file name per line.
+    - The listing should end with a new line.
+    - You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`.
 25. [Acrostic](./102-acrostic) : A script that decodes acrostics that use the first letter of each line.
     - What to decode: `An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval.` [Read more here](https://en.wikipedia.org/wiki/Acrostic)
     - The **‘decoded’** message has to end with a new line.
